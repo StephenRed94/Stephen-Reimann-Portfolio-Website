@@ -1,0 +1,339 @@
+.firstSection {
+  width: 99.8%;
+  padding: 10% 0;
+  height: 84%;
+}
+
+html,
+body {
+  height: 84%;
+  width: 99.8%;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.name {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.chars {
+  font-size: 3vw;
+  font-family: "Share Tech Mono", monospace;
+  color: aqua;
+  display: inline-block;
+  border: 2px solid grey;
+  margin-bottom: 0.5%;
+  margin-right: 1.5%;
+}
+
+.title {
+  font-size: 1vw;
+  color: grey;
+  text-align: center;
+}
+
+.links {
+  margin-top: 0%;
+}
+
+.socials {
+  float: left;
+  width: 52%;
+}
+
+.resumeSide {
+  float: right;
+  width: 46%;
+}
+
+.linkedIn {
+  width: 2.3%;
+  margin-left: 37.3%;
+  padding-right: 8%;
+}
+
+.gitHub {
+  width: 3%;
+  padding-right: 2%;
+}
+
+.resumeDownload {
+  width: 10%;
+  margin-left: 57%;
+  margin-top: -3%;
+}
+
+.resume {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1vw;
+  top: -100%;
+  padding: 4% 5%;
+}
+
+.resume:hover {
+  background-color: #383838;
+}
+
+.projectsSection {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 3vw;
+  color: aqua;
+}
+
+.fileEncryptor {
+  position: relative;
+  margin-left: 15%;
+  width: 20%;
+  height: 70%;
+  border-radius: 10px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.projectPic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.buttons:hover {
+  opacity: 1;
+}
+
+.buttons > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.buttons:hover > * {
+  transform: translateY(0);
+}
+
+.buttons-blur {
+  backdrop-filter: blur(5px);
+}
+
+.script {
+  width: fit-content;
+  padding: 10% 0;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: aqua;
+  font-size: 1vw;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.solitaire {
+  position: relative;
+  width: 20%;
+  height: 70%;
+  border-radius: 10px;
+  float: right;
+  margin-right: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.contactSection {
+  width: 100%;
+}
+
+.contactInfo {
+  float: left;
+  margin-left: 14%;
+  font-size: 1.5vw;
+  color: grey;
+  width: 25%;
+}
+
+.contactTitle {
+  color: aqua;
+  font-size: 3vw;
+}
+
+.contactForm {
+  float: right;
+  width: 60%;
+}
+
+.form {
+  width: 60%;
+  margin-left: 25%;
+}
+
+.input {
+  font-size: 1vw;
+  width: 49%;
+  box-sizing: border-box;
+  padding: 1.5%;
+  border: none;
+  background-color: #2e4053;
+  color: #abb2b9;
+}
+
+.subjectInput {
+  box-sizing: border-box;
+  padding: 1.5%;
+  font-size: 1vw;
+  width: 99.7%;
+  background-color: #2e4053;
+  border: none;
+  color: #abb2b9;
+}
+
+.messageArea {
+  box-sizing: border-box;
+  padding-bottom: 10%;
+  padding-left: 1.5%;
+  padding-top: 1.5%;
+  font-size: 1vw;
+  width: 99.7%;
+  background-color: #2e4053;
+  border: none;
+  color: #abb2b9;
+}
+
+::placeholder {
+  color: #abb2b9;
+}
+
+input:focus,
+.subjectInput,
+.messageArea {
+  outline: none;
+}
+
+input:focus {
+  border-bottom: 2px solid aqua;
+}
+
+textarea:focus {
+  border-bottom: 2px solid aqua;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+.submitButton {
+  margin-left: 75%;
+  background: none;
+  color: aqua;
+  border: 2px solid aqua;
+  width: 25%;
+  padding: 2% 0;
+  font-size: 0.9vw;
+  transition: ease-out 0.3s;
+}
+
+.submitButton:hover {
+  color: black;
+  cursor: pointer;
+  box-shadow: inset 300px 0 0 0 aqua;
+}
+
+.input:-webkit-autofill,
+.subjectInput:-webkit-autofill {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 0px 1000px #2e4053 inset;
+  -webkit-text-fill-color: #abb2b9;
+}
+
+.messageConfirmation {
+  width: 100%;
+  text-align: center;
+  color: aqua;
+  font-size: 1.3vw;
+  margin-top: 3%;
+}
+
+.return {
+  text-align: center;
+  color: grey;
+  font-size: 0.5;
+}
+
+.linkedInIcon {
+  width: 5%;
+}
+
+.githubIcon {
+  width: 7%;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    background-color: black;
+  }
+  .firstSection {
+    width: 100%;
+  }
+
+  .chars {
+    font-size: 12vw;
+    font-family: "Share Tech Mono", monospace;
+    color: aqua;
+    display: inline-block;
+    border: 2px solid grey;
+    margin-bottom: 0.5%;
+    margin-right: 1.5%;
+  }
+
+  .title {
+    font-size: 3vw;
+    color: grey;
+    text-align: center;
+  }
+
+  .socials {
+    width: 100%;
+  }
+
+  .linkedIn {
+    width: 7%;
+    margin-left: 15%;
+    padding-right: 22%;
+  }
+
+  .gitHub {
+    width: 9%;
+  }
+
+  .resume {
+    font-size: 3.5vw;
+  }
+
+  .resumeDownload {
+    width: 22%;
+    margin-left: 70%;
+    margin-top: -11.5%;
+  }
+}

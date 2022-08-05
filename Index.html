@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styling.css" />
+    <script src="functionality.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="firstSection">
+      <div class="name">
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <br />
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+        <div class="chars"></div>
+      </div>
+      <div class="title">
+        <h1>Software Developer</h1>
+      </div>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/stephenreimann94"
+              target="_blank"
+              ><img class="linkedIn" src="linkedin.png" alt="LinkedIn"
+            /></a>
+            <a href="https://github.com/StephenRed94" target="_blank"
+              ><img src="github.png" alt="GitHub" class="gitHub"
+            /></a>
+          </p>
+          <div class="resumeDownload">
+          <form action="Stephen_Reimann_Resume.pdf" target="_blank">
+            <button class="resume">
+              <i class="fa fa-download"></i> Resume
+            </button>
+          </form>>
+          </div>
+    </div>
+    <div class="projectsSection">
+      <h1 class="sectionTitle">My Projects</h1>
+      <br /><br /><br /><br />
+      <div class="fileEncryptor">
+        <img
+          class="projectPic"
+          src="file_encryptor_section.png"
+          alt="File Encryptor Pic"
+        />
+        <div class="buttons buttons-blur">
+          <a
+            class="script"
+            href="https://github.com/StephenRed94/FileEncryptor"
+            target="_blank"
+            >View Source Code</a
+          >
+        </div>
+      </div>
+      <div class="solitaire">
+        <img
+          class="projectPic"
+          src="solitaire_section.png"
+          alt="Solitaire Pic"
+        />
+        <div class="buttons buttons-blur">
+          <a
+            class="script"
+            href="https://github.com/StephenRed94/Solitaire"
+            target="_blank"
+            >View Source Code</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="contactSection">
+      <div class="contactInfo">
+        <h1 class="contactTitle">Contact Me</h1>
+        <p>
+          I am currently seeking a full-time position in the Software
+          Development field.
+          <a
+              href="https://www.linkedin.com/in/stephenreimann94"
+              target="_blank"
+              ><img class="linkedInIcon" src="linkedin.png" alt="LinkedIn"
+            /></a> <a href="https://github.com/StephenRed94" target="_blank"
+            ><img src="github.png" alt="GitHub" class="githubIcon"
+          /></a>
+        </p>
+      </div>
+      <div class="contactForm"></div>
+      <br /><br /><br /><br />
+      <div class="contactForm">
+        <form name="messageForm" class="form" action="message.php" method="POST">
+          <input class="input" type="text" name="name" placeholder="Name" required />
+          &nbsp;
+          <input
+            class="input"
+            type="text"
+            name="email"
+            placeholder="Email" required
+          /><br /><br />
+          <input
+            class="subjectInput"
+            type="text"
+            name="subject"
+            placeholder="Subject"
+          /><br /><br />
+          <textarea
+            class="messageArea"
+            name="message"
+            placeholder="Message" required
+          ></textarea
+          ><br /><br />
+          <button class="submitButton" type="submit" name="submit">
+            Send Message
+          </button>
+        </form>
+        <br<><br>
+      </div>
+    </div>
+    <script>
+      var firstInterval = setInterval(function () {
+        if (counter <= 14) {
+          decrypt();
+        } else {
+          clearInterval(firstInterval);
+        }
+      }, 200);
+       </script>
+  </body>
+</html>
