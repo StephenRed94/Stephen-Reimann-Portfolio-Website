@@ -1,0 +1,105 @@
+<div class="projectsSection">
+      <h1 class="projectsTitle">My Projects</h1>
+      <br /><br /><br /><br />
+      <div class="fileEncryptor">
+        <img
+          class="fileEncryptorPic"
+          src="file_encryptor_pic.png"
+          alt="File Encryptor Pic"
+        />
+        <h1 class="fileEncryptorTitle">File Encryptor</h1>
+        <div class="description">
+          <p>
+            &emsp;<strong>Description:</strong> A simple file encryptor that
+            allows a user to
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;encrypt, decrypt,
+            and modify a text file.<br /><br />
+            &emsp;<strong>Technology:</strong> Python, PySimpleGUI, PyCharm,
+            GitHub<br /><br />&emsp;<strong>Creators:</strong> Stephen Reimann
+          </p>
+        </div>
+      </div>
+    </div>
+
+styling
+
+.fileEncryptorTitle {
+  text-align: center;
+  font-size: 1.5vw;
+  color: aqua;
+  text-decoration: underline solid aqua;
+}
+
+.description {
+  font-size: 1vw;
+  color: grey;
+}
+
+.fileEncryptor {
+  margin-left: 25%;
+  width: 25%;
+  background-color: black;
+}
+
+.fileEncryptorPic {
+  width: 100%;
+}
+
+Solitaire Section:
+<div class="solitaire">
+        <img
+          class="fileEncryptorPic"
+          src="solitairepic.png"
+          alt="Solitaire Pic"
+        />
+        <h1 class="solitaireTitle">Solitaire</h1>
+        <div class="description">
+          <p>
+            &emsp;<strong>Description:</strong> A Solitaire game that inlcudes
+            the additional
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            features of:
+            <ol class="list" style="color: grey; font-size: 0.8vw">
+             <li>
+                Background Colour Change - Changes the background colour to either
+                green or purple.
+              </li>
+              <li>Undo - Reverses the previous action.</li>
+              <li>Difficulty - Changes the difficulty of the game.</li>
+              <li>Score and Time - Displays current score and time.</li>
+            </ol>
+            &emsp;<strong>Technology:</strong> Java, libGDX, IntelliJ IDEA, Jira, GitHub<br /><br />&emsp;<strong>Creators:</strong> Joshua
+              Phibbs, Hong Ruan, Yunxian Zhang, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stephen Reimann, Koji Dino
+          </p>
+        </div>
+      </div>
+
+Styling: 
+.solitaireTitle {
+  text-align: center;
+  font-size: 1.5vw;
+  color: aqua;
+  text-decoration: underline solid aqua;
+}
+
+.description {
+  font-size: 1vw;
+  color: grey;
+}
+
+.solitaire {
+  margin-left: 50%;
+  width: 25%;
+  background-color: black;
+  margin-top: -20%;
+}
+
+.fileEncryptorPic {
+  width: 100%;
+}
+
+.list {
+  margin-left: 115px;
+  margin-top: -10px;
+}
+
